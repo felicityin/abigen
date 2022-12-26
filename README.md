@@ -1,6 +1,6 @@
 # Description
 
-Convert solidity ABI to Rust ABI.
+Convert solidity ABI to Rust ABI using the [ethers](https://github.com/gakonst/ethers-rs/blob/master/examples/abigen.rs).
 
 # Build
 
