@@ -11,12 +11,12 @@ cargo build
 # Run
 
 ```
-./target/debug/abigen {target contract name} {source abi path}
+./target/debug/abigen {target contract name} {source solidity abi path}
 ```
 
-For example
+For example,
 ```
 ./target/debug/abigen ImageCell solidity_abi/ImageCell.abi.json
 ```
 
-Then you will find the generated Rust ABI under folder `rust_abi`.
+Then you will find the generated Rust ABI in the folder `rust_abi`.
