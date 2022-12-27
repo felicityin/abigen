@@ -1,6 +1,6 @@
 # Description
 
-Convert solidity ABI to Rust ABI using the [ethers](https://github.com/gakonst/ethers-rs/blob/master/examples/abigen.rs).
+Convert Solidity ABI to Rust ABI using the [ethers](https://github.com/gakonst/ethers-rs/blob/master/examples/abigen.rs).
 
 # Build
 
@@ -19,4 +19,4 @@ For example,
 ./target/debug/abigen ImageCell solidity_abi/ImageCell.abi.json
 ```
 
-Then you will find the generated Rust ABI in the folder `rust_abi`.
+Then you will find the generated Rust ABI in the file `rust_abi/abi.rs`.
